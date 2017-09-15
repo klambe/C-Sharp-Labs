@@ -9,8 +9,6 @@ namespace EAD1Lab1
     abstract class ThreeDShape
     {
         private string typeOfShape;
-       
- 
 
         public string Shape
         {
@@ -20,7 +18,7 @@ namespace EAD1Lab1
             }
         }
 
-        public ThreeDShape():this("Not Set")
+        public ThreeDShape() : this("Not Set")
         {
         }
 
@@ -30,13 +28,13 @@ namespace EAD1Lab1
         }
 
         public abstract double calculateVolume();
-       
+
         public override string ToString()
         {
-            return "Type of Shape: " +typeOfShape;
+            return "Type of Shape: " + typeOfShape;
 
         }
 
-     
+
     }
 }

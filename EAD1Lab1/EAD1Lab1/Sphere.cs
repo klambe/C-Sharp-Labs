@@ -21,7 +21,7 @@ namespace EAD1Lab1
                 else
                 {
                     radius = 0;
-                }               
+                }
 
             }
             get
@@ -30,22 +30,22 @@ namespace EAD1Lab1
             }
         }
 
-        public Sphere() :this("Unknown",0)
+        public Sphere() : this("Unknown", 0)
         {
         }
-        public Sphere(string typeOfShape, double radiusIn) :base(typeOfShape)
+        public Sphere(string typeOfShape, double radiusIn) : base(typeOfShape)
         {
             this.radius = radiusIn;
         }
 
-        public  override double calculateVolume()
+        public override double calculateVolume()
         {
-            return Math.PI * radius *radius * radius;
+            return Math.PI * radius * radius * radius;
         }
 
         public override string ToString()
         {
-            return "Type of Shape: " + Shape + " Radius: "+radius + " Volume: "+ calculateVolume();
+            return "Type of Shape: " + Shape + " Radius: " + radius + " Volume: " + calculateVolume();
         }
 
 
