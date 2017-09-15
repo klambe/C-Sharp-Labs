@@ -1,0 +1,7 @@
+c:\users\cintec\source\repos\EAD1Lab1\EAD1Lab1\bin\Debug\EAD1Lab1.exe.config
+c:\users\cintec\source\repos\EAD1Lab1\EAD1Lab1\bin\Debug\EAD1Lab1.exe
+c:\users\cintec\source\repos\EAD1Lab1\EAD1Lab1\bin\Debug\EAD1Lab1.pdb
+c:\users\cintec\source\repos\EAD1Lab1\EAD1Lab1\obj\Debug\EAD1Lab1.csprojResolveAssemblyReference.cache
+c:\users\cintec\source\repos\EAD1Lab1\EAD1Lab1\obj\Debug\EAD1Lab1.csproj.CoreCompileInputs.cache
+c:\users\cintec\source\repos\EAD1Lab1\EAD1Lab1\obj\Debug\EAD1Lab1.exe
+c:\users\cintec\source\repos\EAD1Lab1\EAD1Lab1\obj\Debug\EAD1Lab1.pdb
