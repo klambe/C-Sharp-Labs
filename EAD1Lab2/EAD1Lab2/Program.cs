@@ -45,7 +45,7 @@ namespace EAD1Lab2
                 myShapes[i].Translate(2, 3);
             }
 
-            Console.WriteLine("***************After Translation of the images****************");
+            Console.WriteLine("***************After Translation of the shapes****************");
 
             for (int i = 0; i < myShapes.Length; i++)
             {
