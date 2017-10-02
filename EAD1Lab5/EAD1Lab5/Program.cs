@@ -10,9 +10,7 @@ namespace EAD1Lab5
     {
         public struct Money
         {
-            //public double euroPerDollar;
-            //public double yenPerDollar;
-            //public double yenPerEuro;
+
             public Currency CurrencyType { get; set; }
             public double TotalAmount { get; set; }
 
@@ -74,7 +72,10 @@ namespace EAD1Lab5
 
              Money addTwoCurrencies(Money a, Money b)
         {
-            b.convertCurrency(a.CurrencyType);
+                if(a.CurrencyType != b.CurrencyType)
+                {
+                    b.convertCurrency(a.CurrencyType);
+                }           
 
             double sumOfCurrency = a.TotalAmount + b.TotalAmount;
             Money result = new Money(a.CurrencyType, sumOfCurrency);
