@@ -51,7 +51,7 @@ namespace EAD1Lab4
                 results[3] = 60;
                 results[1] = 25;                    // overwrite
                 results[3] = 65;                    // overwrite
-                results[400] = 99;
+                results[4] = 99;
 
                 Console.WriteLine(results);
             }
