@@ -59,6 +59,13 @@ namespace Exercise4Test
             Assert.Fail();
         }
 
+        [TestMethod]
+        public void WhenTeamIsCreatedThenEmptyCollectionIsCreated()
+        {           
+            SoccerTeam team = new SoccerTeam(13, "Tigers", Gender.Male);           
+            Assert.AreEqual(team.Players.Count, 0);
+        }
+
 
     }
 }
