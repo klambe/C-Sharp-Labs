@@ -26,7 +26,7 @@ namespace Exercise4
 
         public override string ToString()
         {
-            return String.Format("Gender: {0} Name: {1} Age: {2} position {3}", PlayerGender, Age, PlayerGender, PlayerPosition);
+            return String.Format("Gender: {0} Name: {1} Age: {2} position {3}", PlayerGender, Name, Age,  PlayerPosition);
         }
     }
 }
