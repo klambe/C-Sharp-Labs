@@ -14,7 +14,7 @@ namespace Ca12016Test
             ShoppingCart s1 = new ShoppingCart();
             s1.AddItem(c1);
            // CollectionAssert.Contains(s1.myList, c1);
-           //CollectionAssert.Contains(s1.MyList, c1);
+           CollectionAssert.Contains(s1.MyList, c1);
             Assert.AreEqual(s1.MyList[0].ProductCode, c1.ProductCode);
             Assert.AreEqual(c1.ProductCode, s1["CodeKevin"].ProductCode);
         }
@@ -74,5 +74,21 @@ namespace Ca12016Test
             s1.AddItem(c3);
             Assert.AreEqual(s1.CalculateShippingCost(ShippingMethod.Standard), 0.8 * 3);
         }
+
+        [TestMethod]
+        public void TestMethod7()
+        {
+            CartItem item1 = new CartItem { ProductCode = "ss101", ProductDescription = "Samsung LED TV", ProductPrice = 400 };
+            CartItem item2 = new CartItem { ProductCode = "hp360", ProductDescription = "HP Spectre 360", ProductPrice = 1500 };
+
+            ShoppingCart cart = new ShoppingCart();
+            cart.AddItem(item1);
+            cart.AddItem(item2);
+
+            CollectionAssert.Contains(cart.MyList, item1);
+            CollectionAssert.Contains(cart.MyList, item2);
+        }
+
+
     }
 }
